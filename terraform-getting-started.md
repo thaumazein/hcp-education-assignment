@@ -2,11 +2,11 @@
 
 Terraform is the most popular language for defining and provisioning infrastructure as code (IaC).
 
-To install Terraform, simply visit [Terraform.io](https://www.terraform.io/downloads.html) and download the compressed binary application executable file deliverable for your platform, machine or environment on which you like to run code and do development.
+To install Terraform, visit [Terraform.io](https://www.terraform.io/downloads.html) and download the appropriate binary for your platform, machine, or environment on which you like to run code and do development.
 
-With Terraform installed, let's dive right into it and start creating some infrastructure.
+With Terraform installed, you can start creating some infrastructure.
 
-Most guys find it easiest to create a new directory on their local machine and create Terraform configuration code inside it.
+Most people find it easiest to create a new directory on their local machine and then create Terraform configuration code inside it.
 
 ```shell
 $ mkdir terraform-demo
@@ -45,24 +45,26 @@ resource "docker_image" "nginx" {
 }
 ```
 
-Initialize Terraform with the `init` command. The AWS provider will be installed.
+Initialize Terraform with the `terraform init` command, which will install the AWS provider.
 
 ```shell
 $ terraform init
 ```
 
-You should check for any errors. If it ran successfully, provision the resource with the `apply` command.
+You should check for any errors. If the `terraform init` command ran successfully, provision the resource with the `terraform apply` command.
 
 ```shell
 $ terraform apply
 ```
 
-The command will take up to a few minutes to run and will display a message indicating that the resource was created.
+This command will take up to a few minutes to run and will display a message indicating that the resource was created.
 
-Finally, destroy the infrastructure.
+You have now created infrastructure using Terraform. Visit localhost in your web browser to verify that the container started.
+
+Finally, destroy the infrastructure using the `terraform destroy` command.
 
 ```shell
 $ terraform destroy
 ```
 
-Look for a message at the bottom of the output asking for confirmation. Type `yes` and hit ENTER. Terraform will destroy the resources it created earlier.
+Look for a message at the bottom of the output asking for confirmation. Type `yes` and press `ENTER`. Terraform will destroy the resources it created earlier.
