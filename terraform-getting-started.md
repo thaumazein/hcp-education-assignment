@@ -2,6 +2,11 @@
 
 Terraform is the most popular language for defining and provisioning infrastructure as code (IaC). In this tutorial, you will use Terraform to provision a Docker container on your local machine.
 
+## Prerequisites
+
+- Docker for [Mac](https://docs.docker.com/docker-for-mac/install/), [Windows](https://docs.docker.com/docker-for-windows/install), or [Linux](https://docs.docker.com/engine/install/)
+
+
 ## Install Terraform
 
 To install Terraform, visit [Terraform.io](https://www.terraform.io/downloads.html) and download the appropriate binary for your platform, machine, or environment on which you like to run code and do development.
