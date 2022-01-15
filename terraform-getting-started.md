@@ -2,9 +2,14 @@
 
 Terraform is the most popular language for defining and provisioning infrastructure as code (IaC). In this tutorial, you will use Terraform to provision a Docker container on your local machine.
 
+## Install Terraform
+
 To install Terraform, visit [Terraform.io](https://www.terraform.io/downloads.html) and download the appropriate binary for your platform, machine, or environment on which you like to run code and do development.
 
 With Terraform installed, you can start creating some infrastructure.
+
+
+## Write configuration
 
 Most people find it easiest to create a new directory on their local machine and then create Terraform configuration code inside it.
 
@@ -44,6 +49,9 @@ resource "docker_image" "nginx" {
   name = "nginx:latest"
 }
 ```
+
+
+## Create infrastructure
 
 Initialize Terraform with the `terraform init` command, which will install the AWS provider.
 
@@ -173,6 +181,9 @@ Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 ```
 
 You have now created infrastructure using Terraform. Visit localhost in your web browser to verify that the container started.
+
+
+## Destroy infrastructure
 
 Finally, destroy the infrastructure using the `terraform destroy` command.
 
