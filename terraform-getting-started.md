@@ -185,7 +185,7 @@ docker_container.nginx: Creation complete after 1s [id=9ea8f30d79d54efa43e6fadba
 Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 ```
 
-You have now created infrastructure using Terraform. Visit localhost in your web browser to verify that the container started.
+You have now created infrastructure using Terraform. Visit [http://localhost](http://localhost) in your web browser to view the Nginx default page and therefore verify that the container started.
 
 
 ## Destroy infrastructure
