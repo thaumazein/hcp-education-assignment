@@ -58,7 +58,7 @@ resource "docker_image" "nginx" {
 
 ## Create infrastructure
 
-Initialize Terraform with the `terraform init` command, which will install the AWS provider.
+Initialize Terraform with the `terraform init` command, which will install the Docker provider.
 
 ```shell
 $ terraform init
