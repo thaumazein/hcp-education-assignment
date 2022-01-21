@@ -16,7 +16,7 @@ With Terraform installed, you can start creating some infrastructure.
 
 ## Write configuration
 
-Most people find it easiest to create a new directory on their local machine and then create Terraform configuration code inside it.
+Create a new directory on your local machine.
 
 ```shell
 $ mkdir terraform-demo
