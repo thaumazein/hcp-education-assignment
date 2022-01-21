@@ -306,4 +306,4 @@ Destroy complete! Resources: 2 destroyed.
 
 ## Next steps
 
-Now that you have provisioned a Docker container using Terraform, you are ready to [explore](https://learn.hashicorp.com/terraform) managing all kinds of cloud resources using infrastructure as code.
+Now that you have provisioned a Docker container using Terraform, you are ready to [explore](https://learn.hashicorp.com/terraform) managing all kinds of infrastructure as code.
