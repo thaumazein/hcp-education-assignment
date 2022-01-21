@@ -1,6 +1,6 @@
 # Getting Started with Terraform
 
-Terraform is the most popular language for defining and provisioning infrastructure as code (IaC). In this tutorial, you will use Terraform to provision a Docker container, which will deploy a running Nginx server on your local machine.
+Terraform is the most popular language for defining and provisioning infrastructure as code (IaC). It allows you to manage your infrastructure using human-readable, plaintext configuration files. In this tutorial, you will use Terraform to provision a Docker container, which will deploy a running Nginx server on your local machine.
 
 ## Prerequisites
 
